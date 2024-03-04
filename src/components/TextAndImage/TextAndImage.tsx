@@ -4,14 +4,16 @@ interface TextAndImageProps {
   title: string;
   paragraph: React.ReactNode;
   heightNumber: number;
-  backgroundClass: string
+  backgroundClass: string;
+  urlImage: string;
 }
 
 const TextAndImage: FC<TextAndImageProps> = ({
   title,
   paragraph,
   heightNumber,
-  backgroundClass
+  backgroundClass,
+  urlImage
 }) => {
   const [value, setValue] = useState<undefined>(undefined);
 
@@ -24,7 +26,9 @@ const TextAndImage: FC<TextAndImageProps> = ({
         style={{height: heightNumber}}
       >
         <div className="w-1/2 h-full">
-          <div className="bg-orange-500 h-full w-full"></div>
+          <div className="h-full w-full" style={{backgroundImage: urlImage, backgroundSize: "cover"}}>
+            <div className="bg-opacity-10 bg-black w-full h-full"></div>
+          </div>
         </div>
         <div className="w-1/2 px-10 text-2xl py-10">
           {title && (

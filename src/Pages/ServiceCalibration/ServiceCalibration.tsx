@@ -6,7 +6,7 @@ import TextAndImage from "../../components/TextAndImage/TextAndImage.tsx";
 const ServiceCalibration = () => {
   return (
     <>
-      <BannerTitle title={"El título"} />
+      <BannerTitle title={"Service & Calibrations"} urlImage={"url('/img/computer.jpg')"}/>
       <BigP
         title="Balancing Machine System Service & Calibration"
         parrafo={
@@ -98,6 +98,7 @@ const ServiceCalibration = () => {
         }
         heightNumber={540}
         backgroundClass="bg-zinc-700"
+        urlImage={"url('/img/computer.jpg')"}
       />
       <TextAndImage
         title="Lexsceco E-meter calibration"
@@ -124,6 +125,7 @@ const ServiceCalibration = () => {
         }
         heightNumber={720}
         backgroundClass="bg-white"
+        urlImage={"url('/img/maquina.jpg')"}
       />
     </>
   );

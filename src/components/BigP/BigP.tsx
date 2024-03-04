@@ -10,7 +10,7 @@ const BigP: FC<BigPProps> = ({ title, parrafo }) => {
 
   return (
     <>
-      <div className="px-40 bg-white my-10">
+      <div className="px-40 bg-white my-20">
         {title && (
             <h1 className="text-4xl mb-5 font-bold">{title}</h1>
         )}

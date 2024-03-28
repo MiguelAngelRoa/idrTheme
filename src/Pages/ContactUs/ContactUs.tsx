@@ -7,7 +7,7 @@ const ContactUs = () => {
 
   return (
     <>
-      <BannerTitle title="Contact Us" urlImage={"url('/img/maquinaria.jpg')"} />
+      <BannerTitle title="Contact Us" urlImage={"url('/img/maquinaria.jpg')"} height={"h-[450px]"} />
       <ContactInfoSection />
     </>
   );

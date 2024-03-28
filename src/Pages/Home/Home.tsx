@@ -8,43 +8,56 @@ const Home = () => {
       <div
         id="principalBanner"
         style={{
-          backgroundImage: "url('/img/rotor.jpg')",
+          backgroundImage: "url('/img/ird-large-balance-machine.jpg')",
           backgroundSize: "cover",
+          height: "600px",
         }}
       >
-        <div className="bg-black bg-opacity-50">
-          <div className="container mx-auto py-36 px-5">
-            <h1 className="text-amber-500 font-bold text-6xl mb-4">
-              IRD Balancing
+        <div className="flex flex-col items-center justify-center w-full h-full bg-opacity-30 bg-black">
+          <div className="w-4/5 mx-auto">
+            <h1 className="text-amber-500 font-bold text-7xl mb-4">
+              IRD BALANCING VE
             </h1>
-            <p className="font-bold text-white">
-              The UK And Ireland Distributer With 25 Years Experience With IRD
+            <p className="font-bold text-white text-2xl">
+              Distribuidor autorizado de IRD en Venezuela.
             </p>
           </div>
         </div>
       </div>
-
       <HomeServicesButton />
       <br />
       <TextAndImage
-        title="About IRD Balancing UK"
-        urlImage={"url('/img/calibrando.jpg')"}
+        title="A cerca de nosotros"
+        urlImage={"url('/img/b750rr.jpg')"}
         heightNumber={600}
+        side="left"
+        backgroundSize="cover"
         paragraph={
           <>
-            <p className="text-white">
-              Welcome to the IRD Balancing UK home page. With over 70 years of
-              experience, IRD Balancing offers products and services designed to
-              meet all of your soft-bearing balancing needs. IRD Balancing
-              machines accommodate a range of rotor weights from a fraction of a
-              kilogram to over 225,000 kilograms. IRD’s knowledge of precision
-              balancing allows us to recommend the best Balancing Machine and
-              Instrumentation solution for your specific application. IRD
-              Balancing UK is the UK & Ireland partner of the business, our
-              engineers are have 25 years of the IRD product range. We are able
-              to provide high level Balancing knowledge, IRD product application
-              and training, be it on IRD Balancing Machines or Lexseco Core Loss
-              Testers.
+            <p className="text-white mb-4">
+              Bienvenidos a IRD Balancing Ve, aliado en Venezuela de IRD LLC,
+              representada por Soportes y Servicios PYH C.A.
+            </p>
+            <p className="text-white mb-4">
+              IRD Balancing con más de 70 años en el mercado fabrica Maquinas
+              Balanceadoras de soportes flexibles (Soft Bearing) con capacidades
+              que van desde fracciones de 1 Kg hasta 227.000 Kg., además
+              suministra los componentes necesarios y planos para que los
+              usuarios fabriquen sus propias máquinas o modernicen sus máquinas
+              obsoletas sin importar la marca. Cuenta con el instrumento de
+              balanceo IRD 295+, de última generación y el más completo del
+              mercado que también puede ser usado para modernizar otras máquinas
+              balanceadoras de soportes flexibles y máquina semirrígidas.
+            </p>
+            <p className="text-white mb-4">
+              Como distribuidores autorizados de IRD, contamos con la capacidad
+              y el soporte de fábrica para ofrecer a los usuarios de IRD
+              Balancing toda la gama de productos y servicios disponibles. Para
+              ello contamos con el personal técnico con más de 25 años de
+              experiencia y en continuo entrenamiento en fábrica. Además,
+              disponemos de los procedimientos estandarizados del fabricante y
+              los equipos de medición definidos, estables y traceables según las
+              normas.
             </p>
           </>
         }

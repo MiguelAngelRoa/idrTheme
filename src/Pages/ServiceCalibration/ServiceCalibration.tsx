@@ -8,7 +8,6 @@ const ServiceCalibration = () => {
       <BannerTitle
         title={"Service & Calibrations"}
         urlImage={"url('/img/computer.jpg')"}
-        height={"h-[500px]"}
       />
       <div
         style={{
@@ -21,9 +20,8 @@ const ServiceCalibration = () => {
             urlImage={"img/calibracion-295-2.jpg"}
             fontColor={"black"}
             side={"left"}
-            height={"h-[700px]"}
           >
-            <h1 className="text-6xl text-rose-600 font-bold mb-8">
+            <h1 className="md:text-6xl xs:text-4xl text-rose-600 font-bold md:mb-8 xs:mb-4">
               Calibración
             </h1>
             <p className="text-2xl mb-5">
@@ -40,9 +38,8 @@ const ServiceCalibration = () => {
             urlImage={"img/Certificacion.jpg"}
             fontColor={"black"}
             side={"right"}
-            height={"h-[700px]"}
           >
-            <h1 className="text-6xl text-rose-600 font-bold mb-8">
+            <h1 className="md:text-6xl xs:text-4xl text-rose-600 font-bold md:mb-8 xs:mb-4">
               Inspección y Certificación de Máquina Balanceadora
             </h1>
             <p className="text-2xl">
@@ -60,10 +57,9 @@ const ServiceCalibration = () => {
             urlImage={"img/iso.jpg"}
             fontColor={"black"}
             side={"left"}
-            height={"h-[1000px]"}
             widthImage={"w-[600px]"}
           >
-            <h1 className="text-6xl text-rose-600 font-bold mb-8">
+            <h1 className="md:text-6xl xs:text-4xl text-rose-600 font-bold md:mb-8 xs:mb-4">
               Certificación de Máquinas Balanceadoras según Norma ISO 21940-21
             </h1>
             <p className="text-2xl mb-5">
@@ -83,9 +79,8 @@ const ServiceCalibration = () => {
             urlImage={"img/Entrenamiento.jpg"}
             fontColor={"black"}
             side={"right"}
-            height={"h-[1000px]"}
           >
-            <h1 className="text-6xl text-rose-600 font-bold mb-8">
+            <h1 className="md:text-6xl xs:text-4xl text-rose-600 font-bold md:mb-8 xs:mb-4">
               Arranque y capacitación en sitio
             </h1>
             <p className="text-2xl mb-5">
@@ -114,9 +109,8 @@ const ServiceCalibration = () => {
             urlImage={"img/reparacion.jpg"}
             fontColor={"black"}
             side={"left"}
-            height={"h-[700px]"}
           >
-            <h1 className="text-6xl text-rose-600 font-bold mb-8">
+            <h1 className="md:text-6xl xs:text-4xl text-rose-600 font-bold md:mb-8 xs:mb-4">
               Reparación
             </h1>
             <p className="text-2xl">
@@ -134,9 +128,8 @@ const ServiceCalibration = () => {
             urlImage={"img/lexseco2.jpg"}
             fontColor={"black"}
             side={"right"}
-            height={"h-[800px]"}
           >
-            <h1 className="text-6xl text-rose-600 font-bold mb-8">
+            <h1 className="md:text-6xl xs:text-4xl text-rose-600 font-bold md:mb-8 xs:mb-4">
               Calibración, Programa de Intercambio del Medidor de Flujo del
               Probador de Pérdida de Nucleo (CLT) Lexseco
             </h1>
@@ -167,9 +160,8 @@ const ServiceCalibration = () => {
             urlImage={"img/beforeandafter.jpg"}
             fontColor={"black"}
             side={"left"}
-            height={"h-[700px]"}
           >
-            <h1 className="text-6xl text-rose-600 font-bold mb-8">
+            <h1 className="md:text-6xl xs:text-4xl text-rose-600 font-bold md:mb-8 xs:mb-4">
               Actualización del Probador de Pérdida de Nucleo (CLT) Lexseco
             </h1>
             <p className="text-2xl mb-5">

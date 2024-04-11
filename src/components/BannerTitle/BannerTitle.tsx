@@ -3,20 +3,19 @@ import React, { FC, useState } from "react";
 interface BannerTitleProps {
   title: string;
   urlImage: string;
-  height?: string;
 }
 
-const BannerTitle: FC<BannerTitleProps> = ({ title, urlImage, height }) => {
+const BannerTitle: FC<BannerTitleProps> = ({ title, urlImage }) => {
   return (
     <>
-      <div className={height ? height + " bg-black bg-opacity-90" : "bg-black bg-opacity-90"}>
+      <div className={" bg-black bg-opacity-90 md:h-[500px] xs:h-[350px]"}>
         <div
           className="flex flex-column items-center h-full w-full"
           style={{ backgroundImage: urlImage, backgroundSize: "cover" }}
         >
-          <div className="flex flex-column items-center bg-opacity-50 bg-black px-40 py-10 w-full h-full">
+          <div className="flex flex-column items-center bg-opacity-50 bg-black md:px-40 xs:px-10 py-10 w-full h-full">
             {title && (
-              <h1 className="text-6xl font-bold text-yellow-400">{title}</h1>
+              <h1 className="md:text-6xl xs:text-5xl font-bold text-yellow-400">{title}</h1>
             )}
           </div>
         </div>

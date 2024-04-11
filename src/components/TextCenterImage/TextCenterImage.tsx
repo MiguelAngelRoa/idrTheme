@@ -4,7 +4,6 @@ interface TextCenterImageProps {
   urlImage: string;
   children: ReactNode;
   side: string;
-  height?: string;
   backgroundColor?: string;
   fontColor?: string;
   heightImage?: string;
@@ -15,7 +14,6 @@ const TextCenterImage: FC<TextCenterImageProps> = ({
   urlImage,
   children,
   side,
-  height,
   backgroundColor,
   fontColor,
   heightImage,
@@ -27,13 +25,13 @@ const TextCenterImage: FC<TextCenterImageProps> = ({
         <div
           className={
             backgroundColor
-              ? backgroundColor + " w-full flex flex-row "
-              : "w-full flex flex-row"
+              ? backgroundColor + " w-full flex md:flex-row xs:flex-col items-center"
+              : "w-full flex md:flex-row xs:flex-col items-center"
           }
         >
+          {/* Image */}
           <div
-            id={"imagen-text"}
-            className={height ? height + " w-1/2 flex flex-col items-center justify-center p-10" : "w-1/2 flex flex-col items-center justify-center p-10" }
+            className={"md:h-fit md:w-1/2 xs:w-full flex md:flex-col xs:flex-row items-center justify-center md:p-10 xs:p-5"}
           >
             <img
               src={urlImage}
@@ -48,13 +46,14 @@ const TextCenterImage: FC<TextCenterImageProps> = ({
               }
             />
           </div>
+          {/* Texto */}
           <div
             id={"parrafoText"}
             className={
               fontColor
                 ? fontColor +
-                  " text-black w-1/2 p-10 w-1/2 flex flex-col items-center justify-center"
-                : "text-black w-1/2 p-10 flex flex-col items-center justify-center"
+                  " text-black md:w-1/2 xs:w-full md:p-10 xs:p-6 flex md:flex-col xs:flex-row items-center justify-center"
+                : "text-black md:w-1/2 xs:w-full md:p-10 xs:p-6 flex md:flex-col xs:flex-row items-center justify-center"
             }
           >
             <div>{children}</div>
@@ -64,24 +63,26 @@ const TextCenterImage: FC<TextCenterImageProps> = ({
         <div
           className={
             backgroundColor
-              ? backgroundColor + " w-full flex flex-row "
-              : "w-full flex flex-row"
+              ? backgroundColor + " w-full flex md:flex-row xs:flex-col-reverse items-center"
+              : "w-full flex md:flex-row xs:flex-col-reverse items-center"
           }
         >
+          {/* Text */}
           <div
             id={"parrafoText"}
             className={
               fontColor
                 ? fontColor +
-                  " text-black w-1/2 p-10 pl-24 w-1/2 flex flex-col items-center justify-center"
-                : "text-black w-1/2 p-10 pl-24 flex flex-col items-center justify-center"
+                  " text-black md:w-1/2 xs:w-full md:p-10 xs:p-6 flex md:flex-col xs:flex-row items-center justify-center"
+                : "text-black md:w-1/2 xs:w-full md:p-10 xs:p-6 flex md:flex-col xs:flex-row items-center justify-center"
             }
           >
             <div>{children}</div>
           </div>
+          {/* Image */}
           <div
             id={"imagen-text"}
-            className="w-1/2 flex flex-col items-center justify-center p-10"
+            className="md:h-fit md:w-1/2 xs:w-full flex md:flex-col xs:flex-row items-center justify-center md:p-10 xs:p-5"
           >
             <img
               src={urlImage}

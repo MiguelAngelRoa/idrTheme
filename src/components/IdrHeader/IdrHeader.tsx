@@ -47,16 +47,16 @@ const IdrHeader = () => {
         </button>
         <nav className="md:flex flex-row items-center w-1/2 pl-5 justify-end font-bold xs:hidden">
           <ul className="flex flex-row items-center">
-            <li className="mr-6 hover:text-amber-500">
+            <li className="text-xl mr-6 hover:text-amber-500">
               <Link to="/">Inicio</Link>
             </li>
-            <li className="mr-6 hover:text-amber-500">
+            <li className="text-xl mr-6 hover:text-amber-500">
               <Link to="/service-calibration">Servicios</Link>
             </li>
-            <li className="mr-6 hover:text-amber-500">
+            <li className="text-xl mr-6 hover:text-amber-500">
               <Link to="/gallery">Galería</Link>
             </li>
-            <li className="mr-6 hover:text-amber-500">
+            <li className="text-xl mr-6 hover:text-amber-500">
               <Link to="/contact-us">Contáctanos</Link>
             </li>
           </ul>

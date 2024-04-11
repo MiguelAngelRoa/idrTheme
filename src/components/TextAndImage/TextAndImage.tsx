@@ -3,7 +3,6 @@ import React, { FC, useState } from "react";
 interface TextAndImageProps {
   title: string;
   paragraph: React.ReactNode;
-  heightNumber: number;
   backgroundClass: string;
   urlImage: string;
   side?: string;
@@ -13,7 +12,6 @@ interface TextAndImageProps {
 const TextAndImage: FC<TextAndImageProps> = ({
   title,
   paragraph,
-  heightNumber,
   backgroundClass,
   urlImage,
   side,
@@ -25,11 +23,11 @@ const TextAndImage: FC<TextAndImageProps> = ({
         <>
           <div
             className={
-              "flex flex-column items-center justify-center " + backgroundClass
+              "flex md:flex-row xs:flex-col items-center justify-center h-fit " + backgroundClass
             }
-            style={{ height: heightNumber }}
+
           >
-            <div className="w-1/2 h-full">
+            <div className="md:w-1/2 md:h-[38rem] xs:w-full xs:h-96">
               <div
                 className="h-full w-full"
                 style={{
@@ -38,12 +36,11 @@ const TextAndImage: FC<TextAndImageProps> = ({
                   backgroundRepeat: "no-repeat",
                 }}
               >
-                <div className="bg-opacity-10 bg-black w-full h-full"></div>
               </div>
             </div>
-            <div className="w-1/2 px-10 text-2xl py-10">
+            <div className="md:w-1/2 md:px-8 h-full xs:w-full xs:px-6 xs:py-4">
               {title && (
-                <h1 className="text-4xl font-bold text-amber-600 mb-4">
+                <h1 className="md:text-4xl xs:text-2xl font-bold text-amber-600 md:mb-4 xs:mb-2">
                   {title}
                 </h1>
               )}
@@ -56,10 +53,9 @@ const TextAndImage: FC<TextAndImageProps> = ({
           <>
             <div
               className={
-                "flex flex-column items-center justify-center " +
+                "flex flex-column items-center justify-center h-fit " +
                 backgroundClass
               }
-              style={{ height: heightNumber }}
             >
               <div className="w-1/2 px-10 text-2xl py-10">
                 {title && (

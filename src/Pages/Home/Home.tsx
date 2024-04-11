@@ -7,15 +7,15 @@ const Home = () => {
     <>
       <div
         id="principalBanner"
+        className="h-96"
         style={{
           backgroundImage: "url('/img/ird-large-balance-machine.jpg')",
           backgroundSize: "cover",
-          height: "600px",
         }}
       >
         <div className="flex flex-col items-center justify-center w-full h-full bg-opacity-30 bg-black">
           <div className="w-4/5 mx-auto">
-            <h1 className="text-amber-500 font-bold text-7xl mb-4">
+            <h1 className="text-amber-500 font-bold md:text-7xl md:mb-4 xs:text-4xl xs:mb-2">
               IRD BALANCING VE
             </h1>
             <p className="font-bold text-white text-2xl">
@@ -29,16 +29,15 @@ const Home = () => {
       <TextAndImage
         title="A cerca de nosotros"
         urlImage={"url('/img/b750rr.jpg')"}
-        heightNumber={600}
         side="left"
         backgroundSize="cover"
         paragraph={
           <>
-            <p className="text-white mb-4">
+            <p className="text-white mb-2 md:text-xl xs:text-sm">
               Bienvenidos a IRD Balancing Ve, aliado en Venezuela de IRD LLC,
               representada por Soportes y Servicios PYH C.A.
             </p>
-            <p className="text-white mb-4">
+            <p className="text-white mb-2 md:text-xl xs:text-sm">
               IRD Balancing con más de 70 años en el mercado fabrica Maquinas
               Balanceadoras de soportes flexibles (Soft Bearing) con capacidades
               que van desde fracciones de 1 Kg hasta 227.000 Kg., además
@@ -49,7 +48,7 @@ const Home = () => {
               mercado que también puede ser usado para modernizar otras máquinas
               balanceadoras de soportes flexibles y máquina semirrígidas.
             </p>
-            <p className="text-white mb-4">
+            <p className="text-white md:text-xl xs:text-sm">
               Como distribuidores autorizados de IRD, contamos con la capacidad
               y el soporte de fábrica para ofrecer a los usuarios de IRD
               Balancing toda la gama de productos y servicios disponibles. Para

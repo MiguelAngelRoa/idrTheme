@@ -4,10 +4,9 @@ const HomeServicesButton = () => {
   return (
     <>
       <div
-        className="flex flex-column items-center justify-center container mx-auto px-10 -mt-20 mb-10"
-        style={{ height: 250 }}
+        className="flex flex-column items-center justify-center container mx-auto px-10 md:-mt-20 xs:-mt-10 md:mb-10 xs:mb-2 md:h-64 xs:h-28 xs:px-6"
       >
-        <div className="bg-white w-1/3 h-full border">
+        <div className="bg-white w-1/3 h-full border xs:px-4">
           <div
             className="bg-center w-full h-full text-center font-bold text-white text-2xl cursor-pointer"
             style={{

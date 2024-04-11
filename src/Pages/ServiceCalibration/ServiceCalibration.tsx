@@ -1,7 +1,5 @@
-import React, { useState } from "react";
+import React from "react";
 import BannerTitle from "../../components/BannerTitle/BannerTitle.tsx";
-import BigP from "../../components/BigP/BigP.tsx";
-import TextAndImage from "../../components/TextAndImage/TextAndImage.tsx";
 import TextCenterImage from "../../components/TextCenterImage/TextCenterImage.tsx";
 
 const ServiceCalibration = () => {
@@ -133,7 +131,7 @@ const ServiceCalibration = () => {
           </TextCenterImage>
           <br />
           <TextCenterImage
-            urlImage={"img/reparacion.jpg"}
+            urlImage={"img/lexseco2.jpg"}
             fontColor={"black"}
             side={"right"}
             height={"h-[800px]"}

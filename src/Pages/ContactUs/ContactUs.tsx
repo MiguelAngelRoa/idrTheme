@@ -4,17 +4,14 @@ import ContactInfoSection from "../../components/ContactInfoSection/ContactInfoS
 import ContactForm from "../../components/ContactForm/ContactForm.tsx";
 
 const ContactUs = () => {
-  const [value, setValue] = useState<undefined>(undefined);
-
   return (
     <>
       <BannerTitle
-        title="Contact Us"
+        title="Contáctanos"
         urlImage={"url('/img/maquinaria.jpg')"}
-        height={"h-[450px]"}
       />
       <ContactInfoSection />
-      <ContactForm />
+      {/* <ContactForm /> */}
     </>
   );
 };

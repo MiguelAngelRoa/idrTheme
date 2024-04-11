@@ -8,8 +8,8 @@ import {
 const ContactInfoSection = () => {
   return (
     <>
-      <div className="flex flex-column w-full px-20 py-10">
-        <div className="flex flex-row w-1/2 items-center justify-center">
+      <div className="flex md:flex-row xs:flex-col w-full md:px-20 md:py-10 xs:p-10">
+        <div className="flex md:flex-row xs:flex-col md:w-1/2 xs:w-full xs:mb-5 items-center justify-center">
           <ul>
             <li>
               <span className="flex flex-column mb-5 items-center">
@@ -51,7 +51,7 @@ const ContactInfoSection = () => {
             </li>
           </ul>
         </div>
-        <div className="flex flex-column items-center justify-center w-1/2">
+        <div className="flex flex-column items-center justify-center md:w-1/2 xs:w-full">
           <iframe
             title="mapa-google-ird"
             src="https://www.google.com/maps/embed?pb=!1m13!1m8!1m3!1d1974.1702843280832!2d-62.75125359524536!3d8.26885988864358!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zOMKwMTYnMDkuMCJOIDYywrA0NScwMC44Ilc!5e0!3m2!1ses!2sve!4v1710277045822!5m2!1ses!2sve"

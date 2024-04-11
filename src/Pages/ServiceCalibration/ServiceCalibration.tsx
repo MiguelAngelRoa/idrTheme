@@ -6,7 +6,7 @@ const ServiceCalibration = () => {
   return (
     <>
       <BannerTitle
-        title={"Service & Calibrations"}
+        title={"Servicios y calibraciones"}
         urlImage={"url('/img/computer.jpg')"}
       />
       <div

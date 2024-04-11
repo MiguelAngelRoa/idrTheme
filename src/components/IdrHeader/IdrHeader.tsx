@@ -26,7 +26,7 @@ const IdrHeader = () => {
           <div className="w-6 h-1 bg-black"></div>
           <div className="w-6 h-1 bg-black"></div>
           {/* menu */}
-          <ul className="bg-[#252525] w-screen pb-10 absolute -top-full group-focus:top-0 right-0 duration-150 flex flex-col space-y-3 justify-end">
+          <ul className="bg-[#252525] w-screen pb-10 absolute -top-full group-focus:top-0 right-0 duration-150 flex flex-col space-y-3 justify-end z-50">
             <button className="px-10 py-6 relative ml-auto">
               <div className="w-6 h-1 rotate-45 absolute bg-white"></div>
               <div className="w-6 h-1 -rotate-45 absolute bg-white"></div>

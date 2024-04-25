@@ -44,7 +44,11 @@ const Gallery = () => {
       >
 
         <div className="flex justify-center items-center bg-opacity-5 bg-black md:p-10 md:h-[900px] xs:h-[600px] xs:p-5">
-          <ImageGallery items={images} />
+          <div className="flex-row">
+            <ImageGallery items={images} />
+            <p className="text-center mt-5 text-2xl">Información que variaría</p>
+          </div>
+
         </div>
       </div>
     </>

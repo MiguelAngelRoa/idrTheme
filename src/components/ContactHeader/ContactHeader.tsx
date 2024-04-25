@@ -19,6 +19,15 @@ const ContactHeader = () => {
           <p className="text-xs">+58 416-3901966</p>
         </span>
         <span className="flex flex-row items-center md:mr-4 md:mb-0 xs:mr-0 xs:mb-4">
+          <DevicePhoneMobileIcon
+            color="yellow"
+            width={20}
+            height={20}
+            className="mr-2"
+          />
+          <p className="text-xs">+58 412-1128614</p>
+        </span>
+        <span className="flex flex-row items-center md:mr-4 md:mb-0 xs:mr-0 xs:mb-4">
           <EnvelopeIcon
             color="yellow"
             width={20}

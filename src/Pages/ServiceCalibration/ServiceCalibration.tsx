@@ -6,7 +6,7 @@ const ServiceCalibration = () => {
   return (
     <>
       <BannerTitle
-        title={"Servicios y calibraciones"}
+        title={"Servicios"}
         urlImage={"url('/img/computer.jpg')"}
       />
       <div
@@ -40,7 +40,7 @@ const ServiceCalibration = () => {
             side={"right"}
           >
             <h1 className="md:text-6xl xs:text-4xl text-rose-600 font-bold md:mb-8 xs:mb-4">
-              Inspección y Certificación de Máquina Balanceadora
+              Inspección y Certificación de Máquinas Balanceadoras
             </h1>
             <p className="text-2xl">
               Se lleva a cabo una vez calibrado el instrumento balanceador, pero
@@ -69,7 +69,7 @@ const ServiceCalibration = () => {
               especificaciones que entrega los fabricantes.
             </p>
             <p className="text-2xl">
-              El servicio de certificación, incluye, además de la maquinas
+              El servicio de certificación, incluye, además de las máquinas
               balanceadoras IRD Balancing; cualquier otra marca, sin importar si
               es rígida o de soportes suaves. Con la certificación se entregan
               los resultados de las pruebas ejecutadas.

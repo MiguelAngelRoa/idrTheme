@@ -35,10 +35,10 @@ const Home = () => {
           <>
             <p className="text-white mb-2 md:text-xl xs:text-sm">
               Bienvenidos a IRD Balancing Ve, aliado en Venezuela de IRD LLC,
-              representada por Soportes y Servicios PYH C.A.
+              representada por Soporte y Servicios PYH C.A.
             </p>
-            <p className="text-white mb-2 md:text-xl xs:text-sm">
-              IRD Balancing con más de 70 años en el mercado fabrica Maquinas
+            <p className="text-white mb-2 md:text-2xl xs:text-sm">
+              IRD Balancing con más de 70 años en el mercado fabrica Máquinas
               Balanceadoras de soportes flexibles (Soft Bearing) con capacidades
               que van desde fracciones de 1 Kg hasta 227.000 Kg., además
               suministra los componentes necesarios y planos para que los
@@ -48,20 +48,28 @@ const Home = () => {
               mercado que también puede ser usado para modernizar otras máquinas
               balanceadoras de soportes flexibles y máquina semirrígidas.
             </p>
-            <p className="text-white md:text-xl xs:text-sm">
-              Como distribuidores autorizados de IRD, contamos con la capacidad
-              y el soporte de fábrica para ofrecer a los usuarios de IRD
-              Balancing toda la gama de productos y servicios disponibles. Para
-              ello contamos con el personal técnico con más de 25 años de
-              experiencia y en continuo entrenamiento en fábrica. Además,
-              disponemos de los procedimientos estandarizados del fabricante y
-              los equipos de medición definidos, estables y traceables según las
-              normas.
-            </p>
           </>
         }
         backgroundClass="bg-zinc-800"
       />
+      <TextAndImage
+        title=""
+        urlImage={"url('/img/calibracion-295-2.jpg')"}
+        side="right"
+        backgroundSize="cover"
+        backgroundClass="bg-zinc-800"
+        paragraph={
+          <p className="text-white md:text-2xl xs:text-sm">
+            Como distribuidores autorizados de IRD, contamos con la capacidad y
+            el soporte de fábrica para ofrecer a los usuarios de IRD Balancing
+            toda la gama de productos y servicios disponibles. Para ello
+            contamos con el personal técnico con más de 25 años de experiencia y
+            en continuo entrenamiento en fábrica. Además, disponemos de los
+            procedimientos estandarizados del fabricante y los equipos de
+            medición definidos, estables y traceables según las normas.
+          </p>
+        }
+      ></TextAndImage>
     </>
   );
 };

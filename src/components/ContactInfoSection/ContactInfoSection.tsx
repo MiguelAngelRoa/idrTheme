@@ -3,7 +3,10 @@ import {
   DevicePhoneMobileIcon,
   EnvelopeIcon,
   MapIcon,
+  UsersIcon
 } from "@heroicons/react/24/solid";
+
+
 
 const ContactInfoSection = () => {
   return (
@@ -11,6 +14,19 @@ const ContactInfoSection = () => {
       <div className="flex md:flex-row xs:flex-col w-full md:px-20 md:py-10 xs:p-10">
         <div className="flex md:flex-row xs:flex-col md:w-1/2 xs:w-full xs:mb-5 items-center justify-center">
           <ul>
+            <li>
+            <span className="flex flex-column mb-5 items-center">
+                <UsersIcon
+                  className="mr-4"
+                  color="orange"
+                  width={40}
+                  height={40}
+                />
+                <p>
+                  <b className="text-2xl"> Jorge Patiarroyo</b>
+                </p>
+              </span>  
+            </li>
             <li>
               <span className="flex flex-column mb-5 items-center">
                 <DevicePhoneMobileIcon
@@ -21,6 +37,18 @@ const ContactInfoSection = () => {
                 />
                 <p>
                   <b>Móvil: </b> +58 416-3901966{" "}
+                </p>
+              </span>
+
+              <span className="flex flex-column mb-5 items-center">
+                <DevicePhoneMobileIcon
+                  className="mr-4"
+                  color="orange"
+                  width={40}
+                  height={40}
+                />
+                <p>
+                  <b>Móvil: </b>+58 412-1128614{" "}
                 </p>
               </span>
             </li>

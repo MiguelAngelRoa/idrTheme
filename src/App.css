@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
-*{
+* {
   font-family: 'Roboto' sans-serif !important;
 }
 
@@ -30,6 +30,44 @@
   color: white;
 }
 
+.custom-description-container {
+  bottom: 70px;
+  line-height: 1;
+  position: absolute;
+  white-space: normal;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.image-gallery-description-custom {
+  background: rgba(0, 0, 0, .7);
+  padding: 10px 20px;
+  color: #fff;
+  font-weight: bold;
+  border-radius: 5px;
+  text-align: center;
+  width: 70%;
+  font-size: 14pt;
+}
+
+.container-items-custom {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+@media screen and (max-width: 600px) {
+  .image-gallery-description-custom {
+    width: 50%;
+    font-size: 11pt;
+  }
+}
+
 .App-link {
   color: #61dafb;
 }
@@ -38,6 +76,7 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }

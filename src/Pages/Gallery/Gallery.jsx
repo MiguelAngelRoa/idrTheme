@@ -92,6 +92,30 @@ const Gallery = () => {
       description: "Soportes de Balanceo de 22 Ton de capacidad. IRD Suministra los planos de fabricación más accesorios y el usuario fábrica su propia máquina Balanceadora.",
       renderItem: renderItemCustom
     },
+    {
+      original: "/galleryImages/PEEMP.png",
+      thumbnail: "/galleryImages/thumbs/PEEMP.png",
+      description: "Puesta en marcha y capacitación máquina B150-295 + Refinería El Palito",
+      renderItem: renderItemCustom
+    },
+    {
+      original: "/galleryImages/PEEMPA.png",
+      thumbnail: "/galleryImages/thumbs/PEEMPA.png",
+      description: "Puesta en marcha y capacitación máquina B150-295 + Refinería El Palito A",
+      renderItem: renderItemCustom
+    },
+    {
+      original: "/galleryImages/PEEMPB.png",
+      thumbnail: "/galleryImages/thumbs/PEEMPB.png",
+      description: "Puesta en marcha y capacitación máquina B150-295 + Refinería El Palito B",
+      renderItem: renderItemCustom
+    },
+    {
+      original: "/galleryImages/PEEMPC.png",
+      thumbnail: "/galleryImages/thumbs/PEEMPC.png",
+      description: "Puesta en marcha y capacitación máquina B150-295 + Refinería El Palito C",
+      renderItem: renderItemCustom
+    }
   ];
 
   return (

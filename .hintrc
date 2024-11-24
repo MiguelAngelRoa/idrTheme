@@ -23,6 +23,15 @@
       {
         "select-name": "off"
       }
+    ],
+    "compat-api/css": [
+      "default",
+      {
+        "ignore": [
+          "touch-action: pan-x",
+          "touch-action: pan-y"
+        ]
+      }
     ]
   }
 }

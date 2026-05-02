@@ -147,6 +147,27 @@ const Gallery = () => {
         "Puesta en marcha y capacitación máquina B150-295 + Refinería El Palito C",
       renderItem: renderItemCustom,
     },
+    {
+      original: "/galleryImages/Imagen-10.jpg",
+      thumbnail: "/galleryImages/thumbs/Imagen-10.png",
+      description:
+        "Calibración 2 x 295 con B50F y B750, Frigidal Barranquilla Colombia.",
+      renderItem: renderItemCustom,
+    },
+    {
+      original: "/galleryImages/Imagen-11.jpg",
+      thumbnail: "/galleryImages/thumbs/Imagen-11.png",
+      description:
+        "Calibración 295+ con B100, Pdvsa Petropiar, Jose, Anzoategui",
+      renderItem: renderItemCustom,
+    },
+    {
+      original: "/galleryImages/Imagen-12.jpg",
+      thumbnail: "/galleryImages/thumbs/Imagen-12.png",
+      description:
+        "Visita técnica en Asmar Valparaíso Chile.",
+      renderItem: renderItemCustom,
+    },
   ];
 
   return (

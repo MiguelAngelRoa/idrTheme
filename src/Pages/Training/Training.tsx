@@ -1,8 +1,8 @@
-import React, { useState } from "react";
+import React from "react";
 import BannerTitle from "../../components/BannerTitle/BannerTitle.tsx";
 
 const Training = () => {
-  const [value, setValue] = useState<undefined>(undefined);
+
 
   return (
     <>

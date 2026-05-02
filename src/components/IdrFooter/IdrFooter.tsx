@@ -1,13 +1,7 @@
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 
 const IdrFooter = () => {
-  const [actualYear, setActualYear] = useState<string | undefined>(undefined);
-
-  useEffect(() => {
-    if (actualYear === undefined) {
-      setActualYear(new Date().toISOString().slice(0, 4));
-    }
-  }, []);
+  const [actualYear] = useState<string>(new Date().getFullYear().toString());
 
   return (
     <>

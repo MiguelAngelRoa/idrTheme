@@ -1,4 +1,3 @@
-import logo from "./logo.svg";
 import "./App.css";
 import ContactHeader from "./components/ContactHeader/ContactHeader.tsx";
 import IdrHeader from "./components/IdrHeader/IdrHeader.tsx";

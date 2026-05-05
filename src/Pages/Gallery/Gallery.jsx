@@ -148,7 +148,7 @@ const Gallery = () => {
       renderItem: renderItemCustom,
     },
     {
-      original: "/galleryImages/Imagen-10.jpg",
+      original: "/galleryImages/Imagen-10.png",
       thumbnail: "/galleryImages/thumbs/Imagen-10.png",
       description:
         "Calibración 2 x 295 con B50F y B750, Frigidal Barranquilla Colombia.",
